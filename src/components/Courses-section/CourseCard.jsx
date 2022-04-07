@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 
 const CourseCard = (props) => {
@@ -30,7 +28,6 @@ const CourseCard = (props) => {
           </p>
 
           <p className="enroll d-flex align-items-center gap-1">
-            // eslint-disable-next-line jsx-a11y/anchor-is-valid
             <a href="#"> Enroll Now</a>
           </p>
         </div>
